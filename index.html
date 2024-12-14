@@ -1,5 +1,180 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERPNext Consultancy - Faridabad</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar {
+            background-color: #007bff;
+        }
+        .navbar-brand, .nav-link {
+            color: #fff;
+        }
+        .nav-link:hover {
+            color: #d4d4d4;
+        }
+        .hero {
+            background: #007bff;
+            color: #fff;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        .services, .team, .portfolio, .contact {
+            padding: 60px 20px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
 <body>
-<h1> Hello World </h1>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">ERPNext Consultancy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to ERPNext Consultancy</h1>
+        <p>Your trusted partner for ERP solutions in Faridabad</p>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="text-center">Our Services</h2>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">ERP Implementation</h5>
+                            <p class="card-text">End-to-end ERPNext implementation tailored to your business needs.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Customisation</h5>
+                            <p class="card-text">Custom solutions to make ERPNext align with your operations.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Training</h5>
+                            <p class="card-text">Professional training for your staff to maximise ERPNext usage.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team bg-light" id="team">
+        <div class="container">
+            <h2 class="text-center">Meet Our Team</h2>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">John Doe</h5>
+                            <p class="card-text">ERP Consultant</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Jane Smith</h5>
+                            <p class="card-text">Technical Expert</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/150" class="card-img-top" alt="Team Member">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Mike Brown</h5>
+                            <p class="card-text">Project Manager</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="text-center">Our Portfolio</h2>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/300" class="img-fluid rounded" alt="Project 1">
+                    <p class="mt-2">Project 1 - Manufacturing ERP</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/300" class="img-fluid rounded" alt="Project 2">
+                    <p class="mt-2">Project 2 - Retail ERP</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/300" class="img-fluid rounded" alt="Project 3">
+                    <p class="mt-2">Project 3 - Healthcare ERP</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact bg-light" id="contact">
+        <div class="container">
+            <h2 class="text-center">Contact Us</h2>
+            <form class="mt-4">
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Your Name">
+                    </div>
+                    <div class="col-md-6">
+                        <input type="email" class="form-control" placeholder="Your Email">
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" rows="5" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ERPNext Consultancy - Faridabad. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
